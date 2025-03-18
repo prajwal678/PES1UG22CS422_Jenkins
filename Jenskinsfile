@@ -15,13 +15,13 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        echo 'Placeholder Deploy
+        echo 'Placeholder Deploy'
       }
     }
   }
   post {
     failure {
-      echo "FAILURE, this pipeline like you"
+      echo 'FAILURE, this pipeline like you'
     }
   }
 }
